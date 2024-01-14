@@ -74,12 +74,12 @@ compileJava {
 
 ext {
     // TODO: document why we stick to these versions
-    kafkaVersion = "1.1.0"
+    kafkaVersion = "3.4.0"
     // Compatible with Kafka version:
     // https://docs.confluent.io/current/installation/versions-interoperability.html
-    confluentPlatformVersion = "4.1.4"
+    confluentPlatformVersion = "7.5.3"
     // Align with version used by commons
-    avroConverterVersion = "7.2.2"
+    avroConverterVersion = "7.5.3"
     aivenConnectCommonsVersion = "0.12.0"
 
     slf4jVersion = "1.7.36"
